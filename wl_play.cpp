@@ -1254,7 +1254,7 @@ int32_t funnyticount;
 
 void PlayLoop (void)
 {
-
+    int putcnt = 0;
     playstate = ex_stillplaying;
     lasttimecount = GetTimeCount();
     frameon = 0;
@@ -1272,6 +1272,9 @@ void PlayLoop (void)
 
     do
     {
+        if (putcnt++ % 30 == 0) {
+            printf("in play loop! %5d play state: %d\n", putcnt - 1, playstate);
+        }
         PollControls ();
 
 //
