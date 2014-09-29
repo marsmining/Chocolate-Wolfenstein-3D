@@ -12,22 +12,34 @@
 	<dict>
 		<key>3A0F3619-ADF1-42DE-A6B0-E7BE0518FF11</key>
 		<string>ssh://github.com/fabiensanglard/Chocolate-Wolfenstein-3D.git</string>
+		<key>6FAEA27E6993E12FCE0B7F331F1C20F56A47F6C0</key>
+		<string>https://github.com/marsmining/Chocolate-Wolfenstein-3D.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>macosx/Chocolate Wolfenstein 3D.xcodeproj/project.xcworkspace</string>
+	<string>macosx/Chocolate Wolfenstein 3D.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3A0F3619-ADF1-42DE-A6B0-E7BE0518FF11</key>
+		<string>../../../../wolf4sdl</string>
+		<key>6FAEA27E6993E12FCE0B7F331F1C20F56A47F6C0</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/fabiensanglard/Chocolate-Wolfenstein-3D.git</string>
+	<string>https://github.com/marsmining/Chocolate-Wolfenstein-3D.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3A0F3619-ADF1-42DE-A6B0-E7BE0518FF11</string>
+	<string>6FAEA27E6993E12FCE0B7F331F1C20F56A47F6C0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6FAEA27E6993E12FCE0B7F331F1C20F56A47F6C0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Chocolate-Wolfenstein-3D</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
