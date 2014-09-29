@@ -34,6 +34,8 @@
 		D901F51A0FC0DBCB0040C290 /* id_vh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D901F4FB0FC0DBCB0040C290 /* id_vh.cpp */; };
 		D901F51B0FC0DBCB0040C290 /* id_ca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D901F4FC0FC0DBCB0040C290 /* id_ca.cpp */; };
 		D94B84D50FC0F2F800EADB6F /* wolf4sdl.icns in Resources */ = {isa = PBXBuildFile; fileRef = D94B84D40FC0F2F800EADB6F /* wolf4sdl.icns */; };
+		FCB9621019D97CF900E810B6 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D901F4C10FC0DB520040C290 /* SDL_mixer.framework */; };
+		FCB9621119D97CF900E810B6 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB9621019D97CF900E810B6 /* SDL_mixer.framework in Frameworks */,
+				FCB9621119D97CF900E810B6 /* SDL.framework in Frameworks */,
 				2DE6049319AD7921008724EB /* OpenGL.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 			);
@@ -353,6 +357,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -362,6 +370,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Chocolate Wolfenstein 3D";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -372,6 +381,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -383,6 +396,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = "-fast";
 				OTHER_CPLUSPLUSFLAGS = "-fast";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Chocolate Wolfenstein 3D";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
